@@ -1,6 +1,7 @@
 {
   "manifest_version": 3,
   "name": "AZ Problem Bookmarker",
+    "author": "Nishtha Aggarwal",
   "version": "0.1",
   "description": "This extension helps you bookmark problems on maang.in and open them from any website without opening maang.in manually.",
   "permissions": ["storage", "tabs"],
@@ -30,7 +31,7 @@
       "24": "assets/ext-icon.png",
       "32": "assets/ext-icon.png"
     },
-    "default_popup": "index.html",
+    "default_popup": "popup.html",
     "default_title": "AZ Problem Bookmarker"
   }
 }
